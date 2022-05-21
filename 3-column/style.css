@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    max-width: 500px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.sedan{
+    padding: 30px 25px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.logo-sedan img{
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+.title-sedan h1{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.description-sedan{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan .button a:hover{
+    background-color: hsla(0, 0%, 100%);
+    color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    padding: 30px 25px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.logo-suv img{
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+.title-suv h1{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.description-suv{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.suv .button a:hover{
+    background-color: hsla(0, 0%, 100%);
+    color: hsl(184, 100%, 22%);
+}
+
+.luxu{
+    padding: 30px 25px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.logo-luxu img{
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+.title-luxu h1{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.description-luxu{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.luxu .button a:hover{
+    background-color: hsla(0, 0%, 100%);
+    color: hsl(179, 100%, 13%);
+}
+
+.button{
+    display: flex;
+    padding-top: 40px;
+}
+
+.button a{
+    border: 2px solid hsla(0, 0%, 100%, 0.7);
+    width: 75px;
+    border-radius: 20px;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.7);
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
