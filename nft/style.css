@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+    background-image: url('images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner:hover{
+    cursor: pointer;
+    filter: grayscale(70%);
+}
+
+.text h1{
+    color: hsl(0, 0%, 100%);
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.text p{
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.img-cripto img{
+    width: 10px;
+}
+
+.cripto{
+    display: flex;
+    font-size: 16px;
+}
+
+.price{
+    padding-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+
+.temp{
+    display: flex;
+}
+
+.day{
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.line{
+    padding-top: 10px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.criation{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.criation img{
+    width: 30px;
+    border: 1px solid hsl(215, 51%, 70%);
+    border-radius: 50%;
+}
+
+#text2{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 300;
+}
+
+#name{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+#name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
